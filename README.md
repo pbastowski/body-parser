@@ -19,7 +19,7 @@ WebApp.connectHandlers
 
 This unfortunately does not work out of the box, because there is no body-parser middleware included in the standard Meteor WebApp configuration.
 
-How do you make it work? Install the `pbastowski:post-body-parser package` and the above will work as shown.
+How do you make it work? Install the `pbastowski:post-body-parser` package and the above example will work as shown.
 
 ### Install:
 
