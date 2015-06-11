@@ -23,5 +23,5 @@ How do you make it work? Install the `pbastowski:post-body-parser package` and t
 
 ### Install:
 
-    meteor add pbastowski:post-body-server
+    meteor add pbastowski:body-parser
     
