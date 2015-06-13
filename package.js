@@ -14,8 +14,9 @@ var npmDeps = {
 Npm.depends(npmDeps);
 
 Package.onUse(function (api) {
+
     api.versionsFrom('1.1.0.2');
-    api.use('webapp', 'server');
+    api.use(['meteor', 'webapp'], 'server');
     api.add_files('server/init.js', 'server');
 });
 
