@@ -1,14 +1,13 @@
 Package.describe({
     name:          'pbastowski:body-parser',
-    version:       '0.0.2',
+    version:       '0.0.3',
     summary:       "Adds a POST body-parser middleware to Meteor's internal WebApp server",
     git:           'https://github.com/pbastowski/body-parser',
     documentation: 'README.md'
 });
 
 var npmDeps = {
-    //"json-middleware":           "1.0.2",
-    "urlencoded-request-parser": "1.0.1"
+    "body-parser":               "1.13.1"
 };
 
 Npm.depends(npmDeps);

@@ -1,6 +1,6 @@
-if (!Meteor.require)
-    Meteor.require = Npm.require;
+var bodyParser = Npm.require("body-parser");
 
-var bodyParser = Npm.require("urlencoded-request-parser")();
-
-WebApp.connectHandlers.use(bodyParser);
+WebApp.connectHandlers
+    .use(bodyParser.urlencoded())
+    .use(bodyParser.json())
+;
